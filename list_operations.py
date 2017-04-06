@@ -68,7 +68,7 @@ def init(input_list):
 
     """
 
-    return input_list[0:-1]
+    return input_list[:-1]
 
 ##############################################################################
 # Do yourself a favor and get a short code review here.
@@ -83,7 +83,7 @@ def first_three(input_list):
 
     """
 
-    return input_list[0:3]
+    return input_list[:3]
 
 
 def last_five(input_list):
@@ -202,6 +202,8 @@ def delete_third_and_seventh(input_list):
     True
 
     """
+    #Leslie was showing us some other way.... whaaaattt??? was it?
+#   input_list[2], input_list[6] =
 
     del input_list[2]
     del input_list[5]
