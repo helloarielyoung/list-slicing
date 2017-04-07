@@ -202,11 +202,12 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-    #Leslie was showing us some other way.... whaaaattt??? was it?
-#   input_list[2], input_list[6] =
 
     del input_list[2]
     del input_list[5]
+
+    #using unpacking instead - just another way to do it
+    #input_list[2:3], input_list[6:7] = [], []
 
 
 def delete_middle(input_list):
